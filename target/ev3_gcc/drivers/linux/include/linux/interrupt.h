@@ -1,6 +1,7 @@
 /* interrupt.h */
 #ifndef _LINUX_INTERRUPT_H
 #define _LINUX_INTERRUPT_H
+#include "irqreturn.h"
 
 //#include <linux/kernel.h>
 //#include <linux/linkage.h>

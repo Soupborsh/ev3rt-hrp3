@@ -87,6 +87,7 @@ typedef uint32_t u32;
  *  Hacks for hrtimer
  */
 #include "linux/hrtimer.h"
+#include "time.h"
 typedef uint32_t ktime_t; //Unit: microsecond
 struct hrtimer {
     ktime_t period;
